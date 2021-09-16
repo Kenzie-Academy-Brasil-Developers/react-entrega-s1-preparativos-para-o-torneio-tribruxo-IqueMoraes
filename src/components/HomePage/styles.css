@@ -1,0 +1,43 @@
+figure {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: rgba(2, 0, 36, 0);
+  background: radial-gradient(
+    circle,
+    rgb(0, 0, 0) 20%,
+    rgba(0, 212, 255, 0) 70%
+  );
+}
+
+figure:hover {
+  background: rgb(235, 235, 235);
+  background: radial-gradient(
+    circle,
+    rgba(235, 235, 235, 1) 0%,
+    rgba(0, 212, 255, 0) 70%
+  );
+  cursor: pointer;
+}
+
+figure:active {
+  width: 100vw;
+  border-radius: 0;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 212, 255, 0) 0%,
+    rgba(75, 235, 42, 1) 40%,
+    rgba(31, 162, 0, 1) 60%,
+    rgba(0, 194, 233, 0) 100%
+  );
+  cursor: pointer;
+}
+
+.wand {
+  width: 200px;
+}

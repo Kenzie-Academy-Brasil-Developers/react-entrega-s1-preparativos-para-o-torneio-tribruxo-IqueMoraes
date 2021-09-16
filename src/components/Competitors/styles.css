@@ -1,0 +1,156 @@
+h2 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+h4 {
+  height: 50px;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+  height: 50px;
+}
+.participants {
+  width: 80vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.studentCard {
+  margin: 20px 0;
+  padding: 5px;
+  width: 150px;
+  height: fit-content;
+  font-size: 20px;
+}
+
+.image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+}
+
+.Gryffindor {
+  background-color: rgb(134, 52, 32);
+  color: rgba(87, 27, 13, 0.8);
+  text-shadow: 1px 2px 0px rgb(134, 52, 32), 0 0 0 #000,
+    1px 4px 6px rgb(182, 79, 53, 0.8);
+}
+
+.Hufflepuff {
+  background-color: rgb(134, 94, 9);
+  color: rgb(100, 72, 10, 0.8);
+  text-shadow: 1px 2px 0px rgb(134, 94, 9), 0 0 0 #000,
+    1px 4px 6px rgba(184, 133, 24, 0.397);
+}
+
+.Ravenclaw {
+  background-color: rgb(37, 66, 104);
+  color: rgba(4, 17, 36, 0.801);
+  text-shadow: 1px 2px 0px rgb(37, 66, 104), 0 0 0 #000,
+    1px 4px 6px rgba(17, 76, 153, 0.253);
+}
+
+.Slytherin {
+  background-color: rgb(18, 77, 28);
+  color: rgba(9, 36, 4, 0.801);
+  text-shadow: 1px 2px 0px rgb(18, 77, 28), 0 0 0 #000,
+    1px 4px 6px rgba(22, 153, 17, 0.123);
+}
+
+button {
+  padding: 10px;
+  width: fit-content;
+  height: fit-content;
+  margin: 30px 0;
+  border-radius: 10px;
+  background-color: rgba(100, 100, 100);
+  font-weight: bold;
+  font-size: 25px;
+  color: rgba(49, 49, 49, 0.801);
+  text-shadow: 1px 2px 0px rgba(100, 100, 100), 0 0 0 #000,
+    1px 4px 6px rgba(27, 27, 27, 0.123);
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  h4 {
+    height: 50px;
+    margin: 15px;
+  }
+
+  p {
+    margin: 15px;
+    height: 50px;
+  }
+
+  .participants {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .studentCard {
+    padding: 15px;
+    width: 180px;
+    height: 370px;
+    font-size: 30px;
+  }
+
+  .image {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+  }
+
+  .Gryffindor {
+    background-color: rgb(134, 52, 32);
+    color: rgba(87, 27, 13, 0.8);
+    text-shadow: 1px 2px 0px rgb(134, 52, 32), 0 0 0 #000,
+      1px 4px 6px rgb(182, 79, 53, 0.8);
+  }
+
+  .Hufflepuff {
+    background-color: rgb(134, 94, 9);
+    color: rgb(100, 72, 10, 0.8);
+    text-shadow: 1px 2px 0px rgb(134, 94, 9), 0 0 0 #000,
+      1px 4px 6px rgba(184, 133, 24, 0.397);
+  }
+
+  .Ravenclaw {
+    background-color: rgb(5, 35, 73);
+    color: rgba(4, 17, 36, 0.801);
+    text-shadow: 1px 2px 0px rgb(5, 35, 73), 0 0 0 #000,
+      1px 4px 6px rgba(17, 76, 153, 0.253);
+  }
+
+  .Slytherin {
+    background-color: rgb(3, 61, 13);
+    color: rgba(9, 36, 4, 0.801);
+    text-shadow: 1px 2px 0px rgb(3, 61, 13), 0 0 0 #000,
+      1px 4px 6px rgba(22, 153, 17, 0.123);
+  }
+
+  button {
+    width: 60vw;
+    height: 40px;
+    margin: 30px 0;
+    border-radius: 10px;
+    background-color: rgba(100, 100, 100);
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(49, 49, 49, 0.801);
+    text-shadow: 1px 2px 0px rgba(100, 100, 100), 0 0 0 #000,
+      1px 4px 6px rgba(27, 27, 27, 0.123);
+  }
+}
