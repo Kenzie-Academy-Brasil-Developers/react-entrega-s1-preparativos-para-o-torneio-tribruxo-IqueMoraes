@@ -14,6 +14,7 @@ export default function HomePage({
         Para selecionar os participantes e dar início aos jogos clique na
         varinha.
       </h4>
+      <div className="backgorundFigure">
       <figure
         onClick={() => {
           console.log("yes");
@@ -27,6 +28,7 @@ export default function HomePage({
           alt="imagem de uma varinha de madeira"
         />
       </figure>
+      </div>
     </div>
   );
 }

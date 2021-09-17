@@ -101,8 +101,8 @@ button {
   .studentCard {
     padding: 15px;
     width: 180px;
-    height: 370px;
-    font-size: 30px;
+    height: fit-content;
+    font-size: 20px;
   }
 
   .image {

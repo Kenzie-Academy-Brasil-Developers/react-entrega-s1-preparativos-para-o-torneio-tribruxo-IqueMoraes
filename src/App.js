@@ -5,8 +5,8 @@ import HomePage from "./components/HomePage";
 import Competitors from "./components/Competitors";
 
 function App() {
-  const [students, setStudents] = useState();
-  const [participants, setParticipants] = useState();
+  const [students, setStudents] = useState([]);
+  const [participants, setParticipants] = useState([]);
   const [initialPage, setInitialPage] = useState(true);
 
   useEffect(() => {
@@ -14,10 +14,12 @@ function App() {
       .then((rest) => rest.json())
       .then((rest) => {
         setStudents(rest);
-        setParticipants(rest);
       })
       .catch((err) => console.log(err));
   }, []);
+
+
+  
 
   return (
     <div className="App">

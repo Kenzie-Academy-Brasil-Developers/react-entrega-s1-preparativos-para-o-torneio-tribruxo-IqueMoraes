@@ -12,8 +12,8 @@ export default function Competitors({
         <h2>Bruxos selecionados</h2>
       </div>
       <div className="participants">
-        {participants?.map((item) => (
-          <div className={`studentCard ${item.house}`}>
+        {participants?.map((item, index) => (
+          <div key={index} className={`studentCard ${item.house}`}>
             <p>{item.house}</p>
             <img
               className={`image`}
